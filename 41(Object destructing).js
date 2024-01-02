@@ -14,7 +14,7 @@ const band = {
                                 // aba chai bandName ko value haru tala aayera store vayo ani accessible vayo
 let {bandName:var1,famousSong:var2}=band;  // yo var1 vanney ma chai aba led xepplin gayera store hunxa
                                             // ani print garney bela vanney yo need to print var1 instead of bandName
-let {bandName,famousSong, ...restprops}=band;
+let {bandName,famousSong, ...restprops}=band; // baki ko print gardinxa
 
 //console.log(bandName)
 console.log(var1)
